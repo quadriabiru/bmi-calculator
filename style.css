@@ -3,34 +3,34 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-color: #b2e0b3; /* Light green, scientifically associated with calmness */
-    color: #333; /* Adjust text color for better visibility */
+    background-color: #f0f5f5; /* Light blue-gray background */
+    color: #333; /* Dark gray text */
 }
 
 h1 {
-    color: #333;
+    color: #333; /* Dark gray heading */
+    margin-top: 40px; /* Add space at the top */
 }
 
 form {
-    background-color: #fff;
-    padding: 20px;
+    background-color: #ffffff; /* White form background */
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: inline-block;
-    margin-bottom: 20px; /* Add margin at the bottom of the form */
-    margin-top: 20px;
+    margin-bottom: 40px; /* Add margin at the bottom */
 }
 
 label {
     display: block;
-    margin-bottom: 8px;
-    color: #333;
+    margin-bottom: 20px; /* Increase space between labels */
+    color: #333; /* Dark gray text */
 }
 
 input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
+    width: calc(100% - 20px); /* Subtract padding from width */
+    padding: 10px;
+    margin-bottom: 24px; /* Increase space between inputs */
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -38,10 +38,10 @@ input {
 }
 
 button {
-    background-color: #4caf50;
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 16px;
+    background-color: #4caf50; /* Green button background */
+    color: #fff; /* White button text */
+    padding: 12px 24px; /* Increase padding */
+    font-size: 18px; /* Increase font size */
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -49,24 +49,18 @@ button {
 }
 
 button:hover {
-    background-color: #145b17;
+    background-color: #1e8449; /* Darker green on hover */
 }
 
-/* Add styling for the result container */
 #result-container {
-    margin-top: 24px; /* Add margin at the top to create space */
+    margin-top: 40px; /* Add margin at the top */
 }
 
 #bmi-result {
-    font-size: 20px; /* Increase font size for the BMI result */
-    font-weight: normal; /* Set normal weight for the BMI result */
+    font-size: 24px; /* Increase font size for the BMI result */
+    font-weight: bold; /* Bold weight for the BMI result */
 }
 
-#result-text {
-    font-size: 22px;
-    font-weight: bold; /* Set bold weight for the "BMI Result" label */
-}
-
-#implication-text{
-    font-size: 20px;
+#implication-text {
+    font-size: 20px; /* Font size for the implication text */
 }
