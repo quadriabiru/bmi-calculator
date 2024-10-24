@@ -48,13 +48,15 @@ To run the BMI Calculator locally, follow these steps:
 
 ## API
 
-The BMI Calculator communicates with a backend API hosted on AWS. The API endpoint is:
+The BMI Calculator communicates with a backend API hosted on AWS. For security reasons, the API endpoint is obscured in the codebase.
 
-```
-https://hbu93xoh5i.execute-api.us-east-1.amazonaws.com/getBMI
-```
+### Functionality
 
-It expects a POST request with a JSON body containing the user's height and weight. The response includes the calculated BMI.
+- The API expects a **POST** request containing a JSON body with the user's height and weight.
+- Upon receiving the request, it calculates the Body Mass Index (BMI) and returns the result.
+- The response includes the calculated BMI value, which is then displayed in the application along with health implications based on the BMI category (underweight, normal weight, overweight, or obesity).
+
+This design helps ensure that users receive accurate and timely BMI assessments while keeping sensitive information secure.
 
 ## Contributing
 
@@ -63,7 +65,3 @@ Contributions are welcome! If you'd like to improve the project, please fork the
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to reach out with any questions or feedback. Happy calculating!
