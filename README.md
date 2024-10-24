@@ -1,6 +1,6 @@
 # BMI Calculator
 
-Welcome to the **BMI Calculator** repository! This project allows users to calculate their Body Mass Index (BMI) based on their height and weight, providing insights into their health status.
+Welcome to the **BMI Calculator** repository! This project allows users to calculate their Body Mass Index (BMI) based on their height and weight, providing insights into their health status. You can check it out at https://quadriabiru.github.io/bmi-calculator
 
 ## Table of Contents
 
