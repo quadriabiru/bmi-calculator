@@ -1,4 +1,4 @@
-const apiUrl = "https://hbu93xoh5i.execute-api.us-east-1.amazonaws.com/getBMI"
+const apiUrl = config.apiURL;
 
 // Add this line to hide the result container by default
 document.addEventListener('DOMContentLoaded', function() {
